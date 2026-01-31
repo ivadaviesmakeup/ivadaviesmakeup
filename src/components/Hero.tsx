@@ -41,7 +41,7 @@ const Hero = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="font-body text-lg text-muted-foreground max-w-lg mb-8 leading-relaxed"
             >
-              Profesionální líčení a osobní poradenství v péči o pleť, které vám pomohou vypadat a cítit se skvěle každý den.
+              Od líčení, které vydrží celý den, až po kurzy, ze kterých si fakt něco odnesete. Abyste se cítila skvěle navenek i uvnitř.
             </motion.p>
             
             <motion.div
