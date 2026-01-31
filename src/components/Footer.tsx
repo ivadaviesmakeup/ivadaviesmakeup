@@ -21,7 +21,7 @@ const Footer = () => {
               <Instagram size={18} />
             </a>
             <a
-              href="mailto:hello@beaute.com"
+              href="mailto:info@beaute.cz"
               className="w-10 h-10 rounded-full border border-cream/30 flex items-center justify-center hover:bg-cream hover:text-charcoal transition-all duration-300"
             >
               <Mail size={18} />
@@ -30,7 +30,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="font-body text-sm text-cream/60 flex items-center gap-1">
-            Made with <Heart size={14} className="text-rose-gold fill-rose-gold" /> © 2026
+            Vytvořeno s <Heart size={14} className="text-rose-gold fill-rose-gold" /> © 2026
           </p>
         </div>
       </div>

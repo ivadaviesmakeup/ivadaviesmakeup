@@ -4,27 +4,27 @@ import { Sparkles, GraduationCap, Heart, Star } from "lucide-react";
 const services = [
   {
     icon: Sparkles,
-    title: "Bridal Makeup",
-    description: "Create your perfect bridal look with a personalized consultation, trial session, and flawless application for your special day.",
-    features: ["Consultation", "Trial Session", "Day-of Application"],
+    title: "Svatební líčení",
+    description: "Vytvořte si dokonalý svatební look s osobní konzultací, zkušebním líčením a bezchybnou aplikací ve váš velký den.",
+    features: ["Konzultace", "Zkušební líčení", "Líčení v den svatby"],
   },
   {
     icon: Star,
-    title: "Editorial & Events",
-    description: "Professional makeup for photoshoots, fashion shows, special events, and any occasion where you want to shine.",
-    features: ["Photoshoots", "Special Events", "Fashion Shows"],
+    title: "Společenské & Eventy",
+    description: "Profesionální líčení pro focení, módní přehlídky, speciální příležitosti a jakýkoli okamžik, kdy chcete zazářit.",
+    features: ["Focení", "Speciální příležitosti", "Módní přehlídky"],
   },
   {
     icon: GraduationCap,
-    title: "Makeup Lessons",
-    description: "Learn professional techniques tailored to your features. From everyday looks to special occasion glam.",
-    features: ["One-on-One Sessions", "Custom Techniques", "Product Guidance"],
+    title: "Kurzy líčení",
+    description: "Naučte se profesionální techniky přizpůsobené vašemu obličeji. Od každodenního looku po večerní glam.",
+    features: ["Individuální lekce", "Vlastní techniky", "Výběr produktů"],
   },
   {
     icon: Heart,
-    title: "Skincare Education",
-    description: "Personalized skincare routines and product recommendations based on your unique skin type and concerns.",
-    features: ["Skin Analysis", "Custom Routine", "Product Recommendations"],
+    title: "Péče o pleť",
+    description: "Personalizované poradenství a doporučení produktů na základě vašeho typu pleti a individuálních potřeb.",
+    features: ["Analýza pleti", "Sestavení rutiny", "Doporučení produktů"],
   },
 ];
 
@@ -41,13 +41,13 @@ const Services = () => {
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <span className="font-body text-sm font-medium tracking-[0.2em] uppercase text-primary mb-4 block">
-            What I Offer
+            Co nabízím
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-6">
-            Services & Education
+            Služby & Vzdělávání
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            From stunning makeup artistry to empowering education, discover how I can help you look and feel beautiful.
+            Od profesionálního líčení po vzdělávací kurzy – objevte, jak vám mohu pomoci vypadat a cítit se krásně.
           </p>
         </motion.div>
 
@@ -101,7 +101,7 @@ const Services = () => {
             href="#contact"
             className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-body font-medium rounded-full hover:bg-burgundy-light transition-all duration-300 hover:shadow-lg"
           >
-            Book a Consultation
+            Rezervovat konzultaci
           </a>
         </motion.div>
       </div>

@@ -17,7 +17,7 @@ const About = () => {
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-accent/20 rounded-[2rem] blur-2xl" />
             <img
               src={aboutImage}
-              alt="About me"
+              alt="O mně"
               className="relative rounded-[2rem] w-full h-[500px] lg:h-[600px] object-cover shadow-xl"
             />
           </motion.div>
@@ -30,30 +30,30 @@ const About = () => {
             transition={{ duration: 0.8 }}
           >
             <span className="font-body text-sm font-medium tracking-[0.2em] uppercase text-primary mb-4 block">
-              About Me
+              O mně
             </span>
             <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-6 leading-tight">
-              Passion for Beauty,
-              <span className="block italic text-primary">Dedication to You</span>
+              Vášeň pro krásu,
+              <span className="block italic text-primary">péče o vás</span>
             </h2>
             <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
               <p>
-                With over a decade of experience in the beauty industry, I've had the privilege of working with hundreds of clients, helping them discover and enhance their natural beauty.
+                S více než desetiletou zkušeností v beauty průmyslu jsem měla tu čest spolupracovat se stovkami klientek a pomáhat jim objevit a podtrhnout jejich přirozenou krásu.
               </p>
               <p>
-                My philosophy is simple: makeup should enhance who you already are, not mask it. Whether you're preparing for your wedding day, a special event, or simply want to learn techniques for everyday confidence, I'm here to guide you.
+                Moje filozofie je jednoduchá: make-up by měl zvýraznit to, kým už jste, ne vás maskovat. Ať se chystáte na svatbu, speciální příležitost, nebo se chcete naučit techniky pro každodenní sebevědomí – jsem tu, abych vás provedla.
               </p>
               <p>
-                Beyond makeup artistry, I'm passionate about skincare education. I believe that great makeup starts with great skin, and I love empowering my clients with knowledge about their unique skin and how to care for it.
+                Kromě líčení se vášnivě věnuji vzdělávání v péči o pleť. Věřím, že skvělý make-up začíná skvělou pletí, a ráda své klientky vzdělávám o jejich jedinečné pleti a jak o ni pečovat.
               </p>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 mt-10 pt-10 border-t border-border">
               {[
-                { number: "500+", label: "Happy Clients" },
-                { number: "10+", label: "Years Experience" },
-                { number: "100+", label: "Students Taught" },
+                { number: "500+", label: "Spokojených klientek" },
+                { number: "10+", label: "Let zkušeností" },
+                { number: "100+", label: "Absolventek kurzů" },
               ].map((stat) => (
                 <div key={stat.label}>
                   <p className="font-display text-3xl font-semibold text-primary">{stat.number}</p>

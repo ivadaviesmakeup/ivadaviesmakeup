@@ -6,11 +6,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "Services", href: "#services" },
+    { name: "Domů", href: "#home" },
+    { name: "Služby", href: "#services" },
     { name: "Portfolio", href: "#portfolio" },
-    { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
+    { name: "O mně", href: "#about" },
+    { name: "Kontakt", href: "#contact" },
   ];
 
   return (
@@ -36,7 +36,7 @@ const Navbar = () => {
               href="#contact"
               className="font-body text-sm font-medium px-6 py-2.5 bg-primary text-primary-foreground rounded-full hover:bg-burgundy-light transition-colors duration-300"
             >
-              Book Now
+              Objednat se
             </a>
           </div>
 
@@ -75,7 +75,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
                 className="font-body text-lg font-medium px-6 py-3 bg-primary text-primary-foreground rounded-full text-center hover:bg-burgundy-light transition-colors"
               >
-                Book Now
+                Objednat se
               </a>
             </div>
           </motion.div>

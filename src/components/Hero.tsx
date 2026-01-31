@@ -22,7 +22,7 @@ const Hero = () => {
               transition={{ delay: 0.2 }}
               className="font-body text-sm font-medium tracking-[0.2em] uppercase text-primary mb-4 block"
             >
-              Makeup Artist & Educator
+              Vizážistka & Lektorka
             </motion.span>
             
             <motion.h1
@@ -31,8 +31,8 @@ const Hero = () => {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="font-display text-5xl md:text-6xl lg:text-7xl font-medium text-foreground leading-[1.1] mb-6"
             >
-              Enhance Your
-              <span className="block italic text-primary">Natural Beauty</span>
+              Podtrhněte svou
+              <span className="block italic text-primary">přirozenou krásu</span>
             </motion.h1>
             
             <motion.p
@@ -41,7 +41,7 @@ const Hero = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="font-body text-lg text-muted-foreground max-w-lg mb-8 leading-relaxed"
             >
-              Professional makeup artistry and personalized skincare education to help you look and feel your absolute best, every single day.
+              Profesionální líčení a osobní poradenství v péči o pleť, které vám pomohou vypadat a cítit se skvěle každý den.
             </motion.p>
             
             <motion.div
@@ -54,13 +54,13 @@ const Hero = () => {
                 href="#services"
                 className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-body font-medium rounded-full hover:bg-burgundy-light transition-all duration-300 hover:shadow-lg"
               >
-                Explore Services
+                Prohlédnout služby
               </a>
               <a
                 href="#portfolio"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-foreground/20 text-foreground font-body font-medium rounded-full hover:border-primary hover:text-primary transition-all duration-300"
               >
-                View Portfolio
+                Zobrazit portfolio
               </a>
             </motion.div>
           </motion.div>
@@ -76,7 +76,7 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-gradient-to-br from-rose-gold/30 to-accent/20 rounded-[2rem] blur-2xl" />
               <img
                 src={heroImage}
-                alt="Professional makeup artistry"
+                alt="Profesionální líčení"
                 className="relative rounded-[2rem] w-full h-[500px] lg:h-[600px] object-cover shadow-2xl"
               />
               {/* Floating Badge */}
@@ -87,7 +87,7 @@ const Hero = () => {
                 className="absolute -left-4 lg:-left-8 bottom-20 bg-background/95 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-xl border border-border"
               >
                 <p className="font-display text-3xl font-semibold text-primary">10+</p>
-                <p className="font-body text-sm text-muted-foreground">Years Experience</p>
+                <p className="font-body text-sm text-muted-foreground">Let zkušeností</p>
               </motion.div>
             </div>
           </motion.div>
