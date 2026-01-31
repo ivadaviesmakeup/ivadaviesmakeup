@@ -7,12 +7,12 @@ import portfolio5 from "@/assets/portfolio-5.png";
 import portfolio6 from "@/assets/portfolio-6.png";
 
 const portfolioImages = [
-  { src: portfolio1, alt: "Editorial beauty makeup with bold red lips" },
-  { src: portfolio2, alt: "Natural glam makeup look with coral lips" },
-  { src: portfolio3, alt: "Artistic black and white beauty portrait" },
-  { src: portfolio4, alt: "Classic elegant makeup with red lip" },
-  { src: portfolio5, alt: "Soft romantic bridal makeup" },
-  { src: portfolio6, alt: "Creative glitter makeup look" },
+  { src: portfolio1, alt: "Editorální líčení s výraznou červenou rtěnkou" },
+  { src: portfolio2, alt: "Přirozený glam s korálovou rtěnkou" },
+  { src: portfolio3, alt: "Umělecký černobílý beauty portrét" },
+  { src: portfolio4, alt: "Klasické elegantní líčení s červenou" },
+  { src: portfolio5, alt: "Jemné romantické svatební líčení" },
+  { src: portfolio6, alt: "Kreativní třpytivé líčení" },
 ];
 
 const Portfolio = () => {
@@ -28,13 +28,13 @@ const Portfolio = () => {
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <span className="font-body text-sm font-medium tracking-[0.2em] uppercase text-primary mb-4 block">
-            My Work
+            Moje práce
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-6">
             Portfolio
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            A curated collection of my favorite looks, from editorial glamour to natural beauty.
+            Výběr mých oblíbených looků – od editorálního glamouru po přirozenou krásu.
           </p>
         </motion.div>
 

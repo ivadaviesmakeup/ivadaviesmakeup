@@ -15,13 +15,13 @@ const Contact = () => {
             className="text-center mb-16"
           >
             <span className="font-body text-sm font-medium tracking-[0.2em] uppercase text-primary mb-4 block">
-              Get In Touch
+              Kontakt
             </span>
             <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-6">
-              Let's Work Together
+              Pojďme spolupracovat
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-xl mx-auto">
-              Ready to book a session or have questions? I'd love to hear from you. Reach out and let's create something beautiful.
+              Chcete si rezervovat termín nebo máte dotazy? Ráda vám pomůžu. Ozvěte se a vytvoříme spolu něco krásného.
             </p>
           </motion.div>
 
@@ -34,10 +34,10 @@ const Contact = () => {
             className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4"
           >
             {[
-              { icon: Mail, label: "Email", value: "hello@beaute.com", href: "mailto:hello@beaute.com" },
-              { icon: Phone, label: "Phone", value: "+1 234 567 890", href: "tel:+1234567890" },
-              { icon: Instagram, label: "Instagram", value: "@beaute_artist", href: "https://instagram.com" },
-              { icon: MapPin, label: "Location", value: "New York, NY", href: "#" },
+              { icon: Mail, label: "Email", value: "info@beaute.cz", href: "mailto:info@beaute.cz" },
+              { icon: Phone, label: "Telefon", value: "+420 123 456 789", href: "tel:+420123456789" },
+              { icon: Instagram, label: "Instagram", value: "@beaute_cz", href: "https://instagram.com" },
+              { icon: MapPin, label: "Lokalita", value: "Praha", href: "#" },
             ].map((contact) => (
               <a
                 key={contact.label}
@@ -67,13 +67,13 @@ const Contact = () => {
               <div className="grid sm:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="font-body text-sm font-medium text-foreground block mb-2">
-                    Name
+                    Jméno
                   </label>
                   <input
                     type="text"
                     id="name"
                     className="w-full px-4 py-3 bg-background border border-border rounded-xl font-body focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-                    placeholder="Your name"
+                    placeholder="Vaše jméno"
                   />
                 </div>
                 <div>
@@ -84,41 +84,41 @@ const Contact = () => {
                     type="email"
                     id="email"
                     className="w-full px-4 py-3 bg-background border border-border rounded-xl font-body focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-                    placeholder="your@email.com"
+                    placeholder="vas@email.cz"
                   />
                 </div>
               </div>
               <div>
                 <label htmlFor="service" className="font-body text-sm font-medium text-foreground block mb-2">
-                  Service Interest
+                  Zájem o službu
                 </label>
                 <select
                   id="service"
                   className="w-full px-4 py-3 bg-background border border-border rounded-xl font-body focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
                 >
-                  <option value="">Select a service</option>
-                  <option value="bridal">Bridal Makeup</option>
-                  <option value="editorial">Editorial & Events</option>
-                  <option value="lessons">Makeup Lessons</option>
-                  <option value="skincare">Skincare Education</option>
+                  <option value="">Vyberte službu</option>
+                  <option value="bridal">Svatební líčení</option>
+                  <option value="editorial">Společenské & Eventy</option>
+                  <option value="lessons">Kurzy líčení</option>
+                  <option value="skincare">Péče o pleť</option>
                 </select>
               </div>
               <div>
                 <label htmlFor="message" className="font-body text-sm font-medium text-foreground block mb-2">
-                  Message
+                  Zpráva
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 bg-background border border-border rounded-xl font-body focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all resize-none"
-                  placeholder="Tell me about your event or what you'd like to learn..."
+                  placeholder="Napište mi o vaší akci nebo co byste se chtěla naučit..."
                 />
               </div>
               <button
                 type="submit"
                 className="w-full sm:w-auto px-8 py-4 bg-primary text-primary-foreground font-body font-medium rounded-full hover:bg-burgundy-light transition-all duration-300 hover:shadow-lg"
               >
-                Send Message
+                Odeslat zprávu
               </button>
             </form>
           </motion.div>
