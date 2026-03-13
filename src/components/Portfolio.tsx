@@ -5,14 +5,22 @@ import portfolio3 from "@/assets/portfolio-3.png";
 import portfolio4 from "@/assets/portfolio-4.png";
 import portfolio5 from "@/assets/portfolio-5.png";
 import portfolio6 from "@/assets/portfolio-6.png";
+import portfolio7 from "@/assets/portfolio-7.png";
+import portfolio8 from "@/assets/portfolio-8.png";
+import portfolio9 from "@/assets/portfolio-9.png";
+import portfolio10 from "@/assets/portfolio-10.png";
 
 const portfolioImages = [
-  { src: portfolio1, alt: "Editorální líčení s výraznou červenou rtěnkou" },
-  { src: portfolio2, alt: "Přirozený glam s korálovou rtěnkou" },
-  { src: portfolio3, alt: "Umělecký černobílý beauty portrét" },
-  { src: portfolio4, alt: "Klasické elegantní líčení s červenou" },
-  { src: portfolio5, alt: "Jemné romantické svatební líčení" },
-  { src: portfolio6, alt: "Kreativní třpytivé líčení" },
+  { src: portfolio1, alt: "Přirozený look s vlnami u moře" },
+  { src: portfolio2, alt: "Glam look s kudrnatými vlasy na růžovém pozadí" },
+  { src: portfolio3, alt: "Párové focení s barevným pozadím" },
+  { src: portfolio4, alt: "Přirozený úsměv s kudrnatými vlasy" },
+  { src: portfolio5, alt: "Casual fresh look v barevném svetru" },
+  { src: portfolio6, alt: "Elegantní look v červeném outfitu" },
+  { src: portfolio7, alt: "Profesionální portrét v tmavém saku" },
+  { src: portfolio8, alt: "Jemný beauty close-up v růžové" },
+  { src: portfolio9, alt: "Moderní portrét v černém topu" },
+  { src: portfolio10, alt: "Klasický beauty portrét s vlnami" },
 ];
 
 const Portfolio = () => {
@@ -39,14 +47,14 @@ const Portfolio = () => {
         </motion.div>
 
         {/* Portfolio Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6">
           {portfolioImages.map((image, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
+              transition={{ duration: 0.6, delay: index * 0.08 }}
               className={`relative overflow-hidden rounded-2xl group cursor-pointer ${
                 index === 0 || index === 5 ? "md:row-span-2" : ""
               }`}
