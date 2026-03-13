@@ -34,8 +34,8 @@ const Contact = () => {
             className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4"
           >
             {[
-              { icon: Mail, label: "Email", value: "info@beaute.cz", href: "mailto:info@beaute.cz" },
-              { icon: Phone, label: "Telefon", value: "+420 123 456 789", href: "tel:+420123456789" },
+              { icon: Mail, label: "Email", value: "Davies.iva@gmail.com", href: "mailto:Davies.iva@gmail.com" },
+              { icon: Phone, label: "Telefon", value: "+420 731 644 040", href: "tel:+420731644040" },
               { icon: Instagram, label: "Instagram", value: "@beaute_cz", href: "https://instagram.com" },
               { icon: MapPin, label: "Lokalita", value: "Praha", href: "#" },
             ].map((contact) => (
