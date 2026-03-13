@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/ivadaviesmakeup"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-cream/30 flex items-center justify-center hover:bg-cream hover:text-charcoal transition-all duration-300"
