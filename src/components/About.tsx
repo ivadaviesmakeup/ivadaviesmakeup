@@ -18,7 +18,7 @@ const About = () => {
             <img
               src={aboutImage}
               alt="O mně"
-              className="relative rounded-[2rem] w-full h-[500px] lg:h-[600px] object-cover shadow-xl"
+              className="relative rounded-[2rem] w-full h-[500px] lg:h-[600px] object-cover object-[center_20%] shadow-xl"
             />
           </motion.div>
 
