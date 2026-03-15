@@ -38,14 +38,22 @@ const About = () => {
             </h2>
             <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
               <p>
-                S více než desetiletou zkušeností v beauty průmyslu jsem měla tu čest spolupracovat se stovkami klientek a pomáhat jim objevit a podtrhnout jejich přirozenou krásu.
+                Za více než deset let v beauty světě jsem nalíčila stovky žen. A jednu věc jsem za tu dobu pochopila velmi rychle. Většina z nás nepotřebuje víc make-upu. Potřebujeme jen vědět, jak ho lépe použít.
               </p>
               <p>
-                Moje filozofie je jednoduchá: make-up by měl zvýraznit to, kým už jste, ne vás maskovat. Ať se chystáte na svatbu, speciální příležitost, nebo se chcete naučit techniky pro každodenní sebevědomí – jsem tu, abych vás provedla.
+                Nevěřím na make-up, který vás schová nebo z vás udělá někoho jiného. Věřím na make-up, který zvýrazní to, co už tam dávno je. Ať už se chystáte na svatbu, velkou událost nebo se jen chcete naučit pár triků pro každodenní líčení, které vám ušetří čas i nervy, jsem tu pro vás.
               </p>
               <p>
-                Kromě líčení se vášnivě věnuji vzdělávání v péči o pleť. Věřím, že skvělý make-up začíná skvělou pletí, a ráda své klientky vzdělávám o jejich jedinečné pleti a jak o ni pečovat.
+                Minimálně stejně důležitá je pro mě péče o pleť. Protože ten nejlepší make-up vždy začíná skvělou skincare, ne u další vrstvy make-upu.
               </p>
+              <p className="font-medium text-foreground">A moje filozofie?</p>
+              <ul className="space-y-2 list-none">
+                <li>• Obličej máte na celý život. Kabelky se mění.</li>
+                <li>• SPF není letní doplněk, ale každodenní základ.</li>
+                <li>• Micelární voda není odličování.</li>
+                <li>• Dobrá rtěnka zvládne víc než složité líčení očí.</li>
+                <li>• Pokud víte, co je BH90210, retinol by měl být váš kamarád.</li>
+              </ul>
             </div>
 
             {/* Stats */}
