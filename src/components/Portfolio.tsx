@@ -39,7 +39,7 @@ const Portfolio = () => {
 
         {/* Portfolio Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6">
-          {portfolioImages.map((image, index) => (
+          {portfolioImages.map((src, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, scale: 0.95 }}
@@ -47,20 +47,16 @@ const Portfolio = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.08 }}
               className={`relative overflow-hidden rounded-2xl group cursor-pointer ${
-                index === 0 || index === 5 ? "md:row-span-2" : ""
+                index === 0 || index === 4 ? "md:row-span-2" : ""
               }`}
             >
               <img
-                src={image.src}
-                alt={image.alt}
+                src={src}
+                alt="Portfolio"
                 className={`w-full object-cover transition-transform duration-700 group-hover:scale-110 ${
-                  index === 0 || index === 5 ? "h-full min-h-[400px]" : "h-[250px] md:h-[300px]"
+                  index === 0 || index === 4 ? "h-full min-h-[400px]" : "h-[250px] md:h-[300px]"
                 }`}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
-                <p className="font-body text-sm text-cream">{image.alt}</p>
-              </div>
             </motion.div>
           ))}
         </div>
