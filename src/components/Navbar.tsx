@@ -32,12 +32,6 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <a
-              href="#contact"
-              className="font-body text-sm font-medium px-6 py-2.5 bg-primary text-primary-foreground rounded-full hover:bg-burgundy-light transition-colors duration-300"
-            >
-              Objednat se
-            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -70,13 +64,6 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <a
-                href="#contact"
-                onClick={() => setIsOpen(false)}
-                className="font-body text-lg font-medium px-6 py-3 bg-primary text-primary-foreground rounded-full text-center hover:bg-burgundy-light transition-colors"
-              >
-                Objednat se
-              </a>
             </div>
           </motion.div>
         )}
