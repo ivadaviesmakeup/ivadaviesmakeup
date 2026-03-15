@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Sparkles, GraduationCap, Heart, Star } from "lucide-react";
+import { Sparkles, GraduationCap, Star } from "lucide-react";
 
 const services = [
   {
