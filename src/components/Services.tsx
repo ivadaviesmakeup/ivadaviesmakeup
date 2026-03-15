@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Sparkles, GraduationCap, Heart, Star } from "lucide-react";
+import { Sparkles, GraduationCap, Star } from "lucide-react";
 
 const services = [
   {
@@ -16,15 +16,9 @@ const services = [
   },
   {
     icon: GraduationCap,
-    title: "Kurzy líčení",
-    description: "Naučte se profesionální techniky přizpůsobené vašemu obličeji. Od každodenního looku po večerní glam.",
-    features: ["Individuální lekce", "Vlastní techniky", "Výběr produktů"],
-  },
-  {
-    icon: Heart,
-    title: "Péče o pleť",
-    description: "Personalizované poradenství a doporučení produktů na základě vašeho typu pleti a individuálních potřeb.",
-    features: ["Analýza pleti", "Sestavení rutiny", "Doporučení produktů"],
+    title: "Kurzy líčení & péče o pleť",
+    description: "Naučte se profesionální techniky přizpůsobené vašemu obličeji, od každodenního looku po večerní glam, včetně personalizovaného poradenství o péči o pleť.",
+    features: ["Individuální lekce", "Vlastní techniky", "Výběr produktů", "Analýza pleti", "Sestavení rutiny"],
   },
 ];
 
@@ -44,7 +38,7 @@ const Services = () => {
             Co nabízím
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-6">
-            Služby & Vzdělávání
+            Služby
           </h2>
           <p className="font-body text-lg text-muted-foreground">
             Od profesionálního líčení po vzdělávací kurzy – objevte, jak vám mohu pomoci vypadat a cítit se krásně.
