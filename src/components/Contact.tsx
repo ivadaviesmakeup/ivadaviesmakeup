@@ -31,12 +31,11 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4"
+            className="grid sm:grid-cols-3 gap-4"
           >
             {[
               { icon: Mail, label: "Email", value: "davies.iva@gmail.com", href: "mailto:davies.iva@gmail.com" },
               { icon: Phone, label: "Telefon", value: "+420 731 644 040", href: "tel:+420731644040" },
-              { icon: Instagram, label: "Instagram", value: "@ivadaviesmakeup", href: "https://instagram.com/ivadaviesmakeup" },
               { icon: MapPin, label: "Lokalita", value: "Praha", href: "#" },
             ].map((contact) => (
               <a
@@ -55,73 +54,6 @@ const Contact = () => {
             ))}
           </motion.div>
 
-          {/* Contact Form */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="mt-12 bg-card p-8 lg:p-12 rounded-3xl border border-border"
-          >
-            <form className="space-y-6">
-              <div className="grid sm:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="name" className="font-body text-sm font-medium text-foreground block mb-2">
-                    Jméno
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    className="w-full px-4 py-3 bg-background border border-border rounded-xl font-body focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-                    placeholder="Vaše jméno"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="font-body text-sm font-medium text-foreground block mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    className="w-full px-4 py-3 bg-background border border-border rounded-xl font-body focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-                    placeholder="vas@email.cz"
-                  />
-                </div>
-              </div>
-              <div>
-                <label htmlFor="service" className="font-body text-sm font-medium text-foreground block mb-2">
-                  Zájem o službu
-                </label>
-                <select
-                  id="service"
-                  className="w-full px-4 py-3 bg-background border border-border rounded-xl font-body focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-                >
-                  <option value="">Vyberte službu</option>
-                  <option value="bridal">Svatební líčení</option>
-                  <option value="editorial">Společenské & Eventy</option>
-                  <option value="lessons">Kurzy líčení</option>
-                  <option value="skincare">Péče o pleť</option>
-                </select>
-              </div>
-              <div>
-                <label htmlFor="message" className="font-body text-sm font-medium text-foreground block mb-2">
-                  Zpráva
-                </label>
-                <textarea
-                  id="message"
-                  rows={4}
-                  className="w-full px-4 py-3 bg-background border border-border rounded-xl font-body focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all resize-none"
-                  placeholder="Napište mi o vaší akci nebo co byste se chtěla naučit..."
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full sm:w-auto px-8 py-4 bg-primary text-primary-foreground font-body font-medium rounded-full hover:bg-burgundy-light transition-all duration-300 hover:shadow-lg"
-              >
-                Odeslat zprávu
-              </button>
-            </form>
-          </motion.div>
         </div>
       </div>
     </section>

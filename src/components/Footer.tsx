@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <a href="#home" className="font-display text-2xl font-semibold tracking-wide">
-            Beauté
+            Iva Davies Make-up
           </a>
 
           {/* Social Links */}
