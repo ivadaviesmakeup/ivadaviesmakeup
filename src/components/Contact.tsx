@@ -31,7 +31,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4"
+            className="grid sm:grid-cols-3 gap-4"
           >
             {[
               { icon: Mail, label: "Email", value: "davies.iva@gmail.com", href: "mailto:davies.iva@gmail.com" },
