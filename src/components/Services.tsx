@@ -16,15 +16,9 @@ const services = [
   },
   {
     icon: GraduationCap,
-    title: "Kurzy líčení",
-    description: "Naučte se profesionální techniky přizpůsobené vašemu obličeji. Od každodenního looku po večerní glam.",
-    features: ["Individuální lekce", "Vlastní techniky", "Výběr produktů"],
-  },
-  {
-    icon: Heart,
-    title: "Péče o pleť",
-    description: "Personalizované poradenství a doporučení produktů na základě vašeho typu pleti a individuálních potřeb.",
-    features: ["Analýza pleti", "Sestavení rutiny", "Doporučení produktů"],
+    title: "Kurzy líčení & péče o pleť",
+    description: "Naučte se profesionální techniky přizpůsobené vašemu obličeji, od každodenního looku po večerní glam, včetně personalizovaného poradenství o péči o pleť.",
+    features: ["Individuální lekce", "Vlastní techniky", "Výběr produktů", "Analýza pleti", "Sestavení rutiny"],
   },
 ];
 
