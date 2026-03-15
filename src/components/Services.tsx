@@ -38,7 +38,7 @@ const Services = () => {
             Co nabízím
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-6">
-            Služby & Vzdělávání
+            Služby
           </h2>
           <p className="font-body text-lg text-muted-foreground">
             Od profesionálního líčení po vzdělávací kurzy – objevte, jak vám mohu pomoci vypadat a cítit se krásně.
