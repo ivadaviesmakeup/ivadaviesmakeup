@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import portfolio1 from "@/assets/portfolio-1.png";
 import portfolio2 from "@/assets/portfolio-2.png";
 import portfolio3 from "@/assets/portfolio-3.png";
 import portfolio4 from "@/assets/portfolio-4.png";
@@ -11,16 +10,8 @@ import portfolio9 from "@/assets/portfolio-9.png";
 import portfolio10 from "@/assets/portfolio-10.png";
 
 const portfolioImages = [
-  { src: portfolio1, alt: "Přirozený look s vlnami u moře" },
-  { src: portfolio2, alt: "Glam look s kudrnatými vlasy na růžovém pozadí" },
-  { src: portfolio3, alt: "Párové focení s barevným pozadím" },
-  { src: portfolio4, alt: "Přirozený úsměv s kudrnatými vlasy" },
-  { src: portfolio5, alt: "Casual fresh look v barevném svetru" },
-  { src: portfolio6, alt: "Elegantní look v červeném outfitu" },
-  { src: portfolio7, alt: "Profesionální portrét v tmavém saku" },
-  { src: portfolio8, alt: "Jemný beauty close-up v růžové" },
-  { src: portfolio9, alt: "Moderní portrét v černém topu" },
-  { src: portfolio10, alt: "Klasický beauty portrét s vlnami" },
+  portfolio2, portfolio3, portfolio4, portfolio5, portfolio6,
+  portfolio7, portfolio8, portfolio9, portfolio10,
 ];
 
 const Portfolio = () => {
