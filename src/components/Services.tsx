@@ -5,17 +5,20 @@ const services = [
   {
     icon: Sparkles,
     title: "Svatební líčení",
-    features: ["Konzultace", "Zkušební líčení", "Líčení v den svatby"],
+    description: "Vypadat skvěle naživo i na fotkách a hlavně — to budete pořád vy. Součástí služby je líčení v den svatby a zkouška líčení předem.",
+    price: "6 000 Kč",
   },
   {
     icon: Star,
-    title: "Společenské líčení",
-    features: ["Focení", "Speciální příležitosti", "Módní přehlídky"],
+    title: "Líčení",
+    description: "Denní, večerní nebo speciální příležitost — líčení přizpůsobím vám, vaší pleti i tomu, jak se chcete cítit.",
+    price: "2 000–3 000 Kč",
   },
   {
     icon: GraduationCap,
     title: "Kurzy líčení & péče o pleť",
-    features: ["Individuální lekce", "Vlastní techniky", "Výběr produktů", "Analýza pleti", "Sestavení rutiny"],
+    description: "Individuální kurz (2–3 hodiny), kde si ujasníte skincare, pochopíte svůj make-up a natrénujete líčení na míru. Zaměříme se na to, co opravdu využijete — od každodenního looku až po jeho úpravu na večer.",
+    price: "4 000 Kč",
   },
 ];
 
@@ -48,19 +51,15 @@ const Services = () => {
               <div className="flex-shrink-0 w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 mx-auto mb-5">
                 <service.icon className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors" />
               </div>
-              <h3 className="font-display text-2xl font-medium text-foreground mb-4">
+              <h3 className="font-display text-2xl font-medium text-foreground mb-3">
                 {service.title}
               </h3>
-              <div className="flex flex-wrap gap-2 justify-center">
-                {service.features.map((feature) => (
-                  <span
-                    key={feature}
-                    className="font-body text-xs font-medium px-3 py-1.5 bg-secondary rounded-full text-secondary-foreground"
-                  >
-                    {feature}
-                  </span>
-                ))}
-              </div>
+              <p className="font-body text-sm text-muted-foreground leading-relaxed mb-5">
+                {service.description}
+              </p>
+              <span className="font-display text-lg font-semibold text-primary">
+                {service.price}
+              </span>
             </motion.div>
           ))}
         </div>
