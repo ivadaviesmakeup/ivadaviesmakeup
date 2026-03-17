@@ -5,17 +5,20 @@ const services = [
   {
     icon: Sparkles,
     title: "Svatební líčení",
-    features: ["Konzultace", "Zkušební líčení", "Líčení v den svatby"],
+    description: "Vypadat skvěle naživo i na fotkách a hlavně — to budete pořád vy. Součástí služby je líčení v den svatby a zkouška líčení předem.",
+    price: "6 000 Kč",
   },
   {
     icon: Star,
-    title: "Společenské líčení",
-    features: ["Focení", "Speciální příležitosti", "Módní přehlídky"],
+    title: "Líčení",
+    description: "Denní, večerní nebo speciální příležitost — líčení přizpůsobím vám, vaší pleti i tomu, jak se chcete cítit.",
+    price: "2 000–3 000 Kč",
   },
   {
     icon: GraduationCap,
     title: "Kurzy líčení & péče o pleť",
-    features: ["Individuální lekce", "Vlastní techniky", "Výběr produktů", "Analýza pleti", "Sestavení rutiny"],
+    description: "Individuální kurz (2–3 hodiny), kde si ujasníte skincare, pochopíte svůj make-up a natrénujete líčení na míru. Zaměříme se na to, co opravdu využijete — od každodenního looku až po jeho úpravu na večer.",
+    price: "4 000 Kč",
   },
 ];
 
