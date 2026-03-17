@@ -41,7 +41,7 @@ const Hero = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="font-body text-lg text-muted-foreground max-w-lg mb-8 leading-relaxed"
             >
-              Stačí vědět, co funguje na vaší pleti, ve vašem životě. To vás naučím.
+              Stačí vědět, co funguje na vaší pleti a ve vašem životě. A já vás to ráda naučím.
               <span className="block mt-3">Profesionální líčení i kurzy, ze kterých si odnesete víc než jen hezký výsledek.</span>
             </motion.p>
             
