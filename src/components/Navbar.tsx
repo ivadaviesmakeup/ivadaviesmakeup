@@ -9,6 +9,7 @@ const Navbar = () => {
     { name: "Domů", href: "#home" },
     { name: "Služby", href: "#services" },
     { name: "Portfolio", href: "#portfolio" },
+    { name: "Recenze", href: "#reviews" },
     { name: "O mně", href: "#about" },
     { name: "Kontakt", href: "#contact" },
   ];
