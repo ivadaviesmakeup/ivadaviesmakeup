@@ -31,8 +31,8 @@ const Hero = () => {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="font-display text-5xl md:text-6xl lg:text-7xl font-medium text-foreground leading-[1.1] mb-6"
             >
-              Podtrhněte svou
-              <span className="block italic text-primary">přirozenou krásu</span>
+              Vypadat skvěle
+              <span className="block italic text-primary">nemusí být složité.</span>
             </motion.h1>
             
             <motion.p
@@ -41,7 +41,8 @@ const Hero = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="font-body text-lg text-muted-foreground max-w-lg mb-8 leading-relaxed"
             >
-              Od líčení, které vydrží celý den, až po kurzy, ze kterých si fakt něco odnesete. Abyste se cítila skvěle navenek i uvnitř.
+              Stačí vědět, co funguje na vaší pleti, ve vašem životě. To vás naučím.
+              <span className="block mt-3">Profesionální líčení i kurzy, ze kterých si odnesete víc než jen hezký výsledek.</span>
             </motion.p>
             
             <motion.div
