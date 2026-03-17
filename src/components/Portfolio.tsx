@@ -32,9 +32,6 @@ const Portfolio = () => {
           <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-6">
             Portfolio
           </h2>
-          <p className="font-body text-lg text-muted-foreground">
-            Výběr mých oblíbených looků – od editorálního glamouru po přirozenou krásu.
-          </p>
         </motion.div>
 
         {/* Portfolio Grid */}
