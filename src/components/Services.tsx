@@ -51,19 +51,15 @@ const Services = () => {
               <div className="flex-shrink-0 w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 mx-auto mb-5">
                 <service.icon className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors" />
               </div>
-              <h3 className="font-display text-2xl font-medium text-foreground mb-4">
+              <h3 className="font-display text-2xl font-medium text-foreground mb-3">
                 {service.title}
               </h3>
-              <div className="flex flex-wrap gap-2 justify-center">
-                {service.features.map((feature) => (
-                  <span
-                    key={feature}
-                    className="font-body text-xs font-medium px-3 py-1.5 bg-secondary rounded-full text-secondary-foreground"
-                  >
-                    {feature}
-                  </span>
-                ))}
-              </div>
+              <p className="font-body text-sm text-muted-foreground leading-relaxed mb-5">
+                {service.description}
+              </p>
+              <span className="font-display text-lg font-semibold text-primary">
+                {service.price}
+              </span>
             </motion.div>
           ))}
         </div>
