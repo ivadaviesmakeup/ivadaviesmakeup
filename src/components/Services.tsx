@@ -32,7 +32,7 @@ const Services = () => {
           </span>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-8 max-w-4xl mx-auto">
           {services.map((service, index) => (
             <motion.div
               key={service.title}
