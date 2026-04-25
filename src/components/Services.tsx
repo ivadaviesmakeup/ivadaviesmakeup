@@ -1,13 +1,7 @@
 import { motion } from "framer-motion";
-import { Sparkles, GraduationCap, Star } from "lucide-react";
+import { Star, GraduationCap } from "lucide-react";
 
 const services = [
-  {
-    icon: Sparkles,
-    title: "Svatební líčení",
-    description: "Vypadat skvěle naživo i na fotkách a hlavně, to budete pořád vy. Součástí služby je líčení v den svatby a zkouška líčení předem.",
-    price: "6 000 Kč",
-  },
   {
     icon: Star,
     title: "Líčení",
@@ -18,7 +12,7 @@ const services = [
     icon: GraduationCap,
     title: "Kurzy líčení & péče o pleť",
     description: "Individuální kurz (2-3 hodiny), kde si ujasníte skincare, pochopíte svůj make-up a natrénujete líčení na míru. Zaměříme se na to, co opravdu využijete, od každodenního looku až po jeho úpravu na večer.",
-    price: "4 000 Kč",
+    price: "4 000 Kč / osobu",
   },
 ];
 
