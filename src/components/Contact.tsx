@@ -21,7 +21,7 @@ const Contact = () => {
               Pojďme spolupracovat
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-xl mx-auto">
-              Chcete si rezervovat termín nebo máte dotazy? Ráda vám pomůžu. Ozvěte se a vytvoříme spolu něco krásného.
+              Chcete si rezervovat termín nebo máte dotazy? Ráda vám pomůžu. Ozvěte se, budu se na vás těšit.
             </p>
           </motion.div>
 
