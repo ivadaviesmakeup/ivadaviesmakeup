@@ -6,7 +6,7 @@ const services = [
     icon: Star,
     title: "Líčení",
     description: "Denní, večerní nebo speciální příležitost, líčení přizpůsobím vám, vaší pleti i tomu, jak se chcete cítit.",
-    price: "2 000-3 000 Kč",
+    price: "3 000 Kč",
   },
   {
     icon: GraduationCap,
