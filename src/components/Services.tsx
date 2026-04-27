@@ -12,7 +12,7 @@ const services = [
     icon: GraduationCap,
     title: "Kurzy líčení & péče o pleť",
     description: "Individuální kurz (2-3 hodiny), kde si ujasníte skincare, pochopíte svůj make-up a natrénujete líčení na míru. Zaměříme se na to, co opravdu využijete, od každodenního looku až po jeho úpravu na večer.",
-    price: "4 000 Kč / osobu",
+    price: "5 000 Kč / osobu",
   },
 ];
 
