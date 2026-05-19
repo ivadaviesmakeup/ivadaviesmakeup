@@ -3,18 +3,13 @@ import { Star } from "lucide-react";
 
 const reviews = [
   {
-    name: "Jana K.",
-    text: "Iva je úžasná! Svatební líčení bylo přesně takové, jaké jsem si přála. Vydrželo celý den a na fotkách vypadám skvěle.",
+    name: "Veronika K.",
+    text: "Moc děkuji Ivě za individuální kurz make-upu, který velmi doporučuji. Iva je skvělá, všechno mi ukazovala a nechala vyzkoušet, takže jsem v průběhu (a následně i doma) byla schopná líčení bez problémů zreplikovat. Od té doby se doma umím nalíčit jako na kurzu s Ivou. Oceňuji, že Iva při kurzu využívala především věci, co jsem si s sebou přinesla, nemusela jsem si tak kupovat spoustu nových malovátek a skin care, ale začala jsem se na ty moje dívat jinýma očima a opravdu nyní využívám jejich potenciál. Kurz je jako tři hodiny s kámoškou, při kterých se naučíte se hezky namalovat, dozvíte se spoustu věcí, můžete se na cokoliv zeptat a za neznalost ani nešikovnost vás nikdo nesoudí.",
     rating: 5,
   },
   {
-    name: "Petra M.",
-    text: "Kurz líčení mi otevřel oči. Konečně vím, co funguje na mou pleť a líčení mi zabere polovinu času.",
-    rating: 5,
-  },
-  {
-    name: "Lucie S.",
-    text: "Profesionální přístup a krásný výsledek. Cítila jsem se jako lepší verze sebe, ne jako někdo jiný.",
+    name: "Renata H.",
+    text: "Pořídila jsem si kurz u Ivy zejména kvůli skin care, ale nakonec jsem byla moc ráda, že pokrýval i makeup. K Ivě jsem jela s minimálními znalostmi i povědomím o obojím (čti: vím, že mám používat SPFko, krém a lehce se maluju). Ale z kurzu jsem odjížděla nabitá informacemi o celé skin care routine. Dozvěděla jsem se, co a jak s make-upem vzhledem k mé pleti a dostala konkrétní tipy na produkty. Takže jsem se těšila, až si to projdu doma znovu a pořídím všechno potřebné. Strávila jsem s Ivou asi 3 hodiny, které neuvěřitelně utekly. Strašně jsem si to užila, a navíc se fakt nasmála. Všechno, co jsme probraly jsem pak byla schopná jednoduše převést do praxe a teď si to dost užívám. A ano, tohle píšu zatímco mám aplikovaný retinal, který zařídí, že budu forever young. Pokud hledáte někoho, kdo vám všechno vysvětlí od základu, poradí co a jak a ještě s ním strávíte příjemný čas, Iva it is!",
     rating: 5,
   },
 ];
@@ -38,7 +33,7 @@ const Reviews = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
           {reviews.map((review, index) => (
             <motion.div
               key={review.name}
