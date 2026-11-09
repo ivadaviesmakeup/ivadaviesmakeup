@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Star, GraduationCap } from "lucide-react";
+import { Star, GraduationCap, Gift } from "lucide-react";
+import giftVoucher from "@/assets/gift-voucher.png.asset.json";
 
 const services = [
   {
@@ -57,6 +58,43 @@ const Services = () => {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="max-w-4xl mx-auto mt-6 lg:mt-8 bg-background rounded-2xl border border-border hover:border-primary/30 transition-all duration-500"
+        >
+          <div className="grid md:grid-cols-2 items-center gap-6 lg:gap-10 p-6 lg:p-10">
+            <div className="rounded-xl overflow-hidden border border-border bg-secondary/40">
+              <img
+                src={giftVoucher.url}
+                alt="Dárkový poukaz na kurz osobního líčení a péče o pleť"
+                className="w-full h-auto object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div className="text-center md:text-left">
+              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto md:mx-0 mb-5">
+                <Gift className="w-6 h-6 text-primary" />
+              </div>
+              <h3 className="font-display text-2xl lg:text-3xl font-medium text-foreground mb-3">
+                Chcete kurz věnovat jako dárek?
+              </h3>
+              <p className="font-body text-sm text-muted-foreground leading-relaxed">
+                Ráda vám vystavím dárkový poukaz. Stačí mi napsat na{" "}
+                <a
+                  href="mailto:davies.iva@gmail.com"
+                  className="text-primary font-medium hover:underline"
+                >
+                  davies.iva@gmail.com
+                </a>{" "}
+                a domluvíme se na podrobnostech.
+              </p>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
