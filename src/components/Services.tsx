@@ -65,17 +65,9 @@ const Services = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-4xl mx-auto mt-6 lg:mt-8 bg-background rounded-2xl border border-border hover:border-primary/30 transition-all duration-500"
         >
-          <div className="grid md:grid-cols-2 items-center gap-6 lg:gap-10 p-6 lg:p-10">
-            <div className="rounded-xl overflow-hidden border border-border bg-secondary/40">
-              <img
-                src="/images/gift-voucher.png"
-                alt="Dárkový poukaz na kurz osobního líčení a péče o pleť"
-                className="w-full h-auto object-cover"
-                loading="lazy"
-              />
-            </div>
-            <div className="text-center md:text-left">
-              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto md:mx-0 mb-5">
+          <div className="p-6 lg:p-10">
+            <div className="text-center">
+              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-5">
                 <Gift className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-display text-2xl lg:text-3xl font-medium text-foreground mb-3">
