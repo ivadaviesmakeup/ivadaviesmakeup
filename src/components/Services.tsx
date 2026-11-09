@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Star, GraduationCap, Gift } from "lucide-react";
-import giftVoucher from "@/assets/gift-voucher.png.asset.json";
 
 const services = [
   {
@@ -69,7 +68,7 @@ const Services = () => {
           <div className="grid md:grid-cols-2 items-center gap-6 lg:gap-10 p-6 lg:p-10">
             <div className="rounded-xl overflow-hidden border border-border bg-secondary/40">
               <img
-                src={giftVoucher.url}
+                src="/images/gift-voucher.png"
                 alt="Dárkový poukaz na kurz osobního líčení a péče o pleť"
                 className="w-full h-auto object-cover"
                 loading="lazy"
